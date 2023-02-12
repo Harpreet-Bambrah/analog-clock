@@ -1,0 +1,69 @@
+.width-container{
+    width: 280px;
+    margin: auto;
+    padding-top: 10%;
+}
+
+
+#clock-container{
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+
+
+#second-div{
+    width: 3px;
+    height: 165px;
+    margin: auto;
+    transform: rotate(20deg);
+    background-image: linear-gradient(rgb(202, 49, 49) 60%, transparent 40%);
+    position: absolute;
+    z-index: 3;
+    top: 19.5%;
+    left: 49.5%;
+    
+}
+
+#minute-div{
+    width: 5px;
+    height: 165px;
+    margin: auto;
+    transform: rotate(20deg);
+    background-image: linear-gradient(black 50%, transparent 50%);
+    position: absolute;
+    z-index: 2;
+    top: 19.5%;
+    left: 49.5%;
+}
+
+
+#hour-div{
+    width: 5px;
+    height: 135px;
+    margin: auto;
+    transform: rotate(20deg);
+    background-image: linear-gradient(black 50%, transparent 50%);
+    position: absolute;
+    z-index: 1;
+    top: 24.5%;
+    left: 49.5%;
+}
+
+img{
+    width: 100%;
+   
+}
+
+#center{
+    width: 14px;
+    height: 14px;
+    border-radius: 10px;
+    background-color: black;
+    left: 47.5%;
+    top: 46.5%;
+    position: absolute;
+    z-index: 4;
+}
+
